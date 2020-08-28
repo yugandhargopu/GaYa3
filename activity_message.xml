@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".image1"
+    android:background="#ffe5c7">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/textm1.txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="happy birthday "
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textSize="60sp"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/textm2.txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To the most Awesome person on earth"
+            android:cursorVisible="true"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="18sp"
+            android:layout_below="@+id/textm1.txt"
+            />
+
+        <TextView
+            android:id="@+id/textm3.txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n  heyyyya ,, \n     let me tell small instance on a special day....."
+            android:textSize="25sp"
+            android:layout_below="@+id/textm2.txt"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/message.txt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textm3.txt"
+            android:text="  \n     just know that u have to read this completely okayy...\n \n ' Sunshine remotes the purity to assure that there's a beautiful tomorrow. ' \n it was 3 years ago I saw you for the first time. \n Those moments still cherish like it's a cloud of colourful rainbows... \n   That was my first year of ineter.. new place, new ppl and a young teenager..what else do u expect😂 I always stared at girls and one day it was u.\n I never felt that way ever before and I felt like my heart just skipped a bit. \n I admit that I was immatured and couldn't share it with anybody not even my closest friends. \n The best part of my day was staring at u whenever u appeared to me.\n I still picture u with another short girl(ps. I don't know her name) walking around laughing out.\n Trust me,\n  that laugh made my day everyday and I was on cloud 9 each time I saw it.\n U were from another section and hence didn't get the chance to see u often. \n I think u merely recognised me then. /n I used to stare at you through glass from the main door( I was seated in the last bench and I could see u easily)..\n I remember all those times when u came to fill ur water bottle and it was twice tht I came and stood by u while filling water. \n U might think tht all this is of no use but trust me tht was the only thing tht mattered to me all throughout. \n I know tht I didn't dare to talk to u becoz I was shy or kinda an introvert.. I don't know../n anyway just remember tht u r a very special person to me.. "
+            android:fontFamily="casual"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/message2.txt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/message.txt"
+            android:text="  'You are as pretty as a Queen of Unicorn in a parallel Universe.'\n I dreamt of the world future that would replicate our smiles. \n But every time of berry blooms takes a diversion.\n Some times, dark clouds overlook day's  sunshine, \n    but it's for sure that sunshine will be back again.../n In the same way, /n   we might have had hard days./n    It was my mistake in every aspect,/n    I sincerely apologize for it, dear.\n If there's any way that I could change my past, /n  I would let my mistakes make it right.\n With a devine sink of this beautiful day,\n I wish you a very very very..\n very  happy birthday my dear.\n\n\n"
+            android:textColor="#000000"
+            android:fontFamily="casual"
+            android:textStyle="italic"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/message3.txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="U have a milloin dollar smile on your face ...\n    keep Smiling\n u deserve every happy moment in ur life\n\n\n\n"
+            android:cursorVisible="true"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="23sp"
+            android:layout_below="@+id/message2.txt"
+            />
+        <Button
+            android:id="@+id/backmain.btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="back"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignBottom="@+id/message3.txt"
+            android:layout_centerHorizontal="true"
+            android:textColor="#607d8b"/>
+    </RelativeLayout>
+</ScrollView>

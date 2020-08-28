@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".image2"
+    android:background="#ffd3c9">
+
+
+    <TextView
+                android:id="@+id/bdaytext.txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hii andi\n nen andi\n gayathri ni andi \n ivvala na birthday andi\nandaru wish cesi punyam techukondi"
+                android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+                android:textColor="#4e342e"
+                android:textSize="26sp"/>
+            <Button
+                android:id="@+id/back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="back"
+                android:layout_below="@+id/bdaytext.txt"
+                android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

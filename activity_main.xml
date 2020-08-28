@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#cafaff"
+    >
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circularview"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:civ_border_color="#3f51b5"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="100dp"
+        app:civ_shadow_color="#3f51b5"
+        android:src="@drawable/imglast"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="come on tap the cake"
+        android:layout_above="@+id/circularview"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:padding="2dp"
+        android:textColor="#757575"/>
+
+    <Button
+        android:id="@+id/surprise.btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="here is a small surprise tap on me"
+        android:background="#757575"
+        android:textColor="#e1f5fe"
+        android:layout_above="@+id/message.txt"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/message.txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="here is a small message to u bubbly"
+        android:background="#757575"
+        android:textColor="#e1f5fe"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".music_click"
+    android:background="#000000"
+    >
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif1"
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/gaya3_giffy"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/gif1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pika5"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif3"
+        android:layout_width="110dp"
+        android:layout_height="300dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/pika2"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif4"
+        android:layout_width="110dp"
+        android:layout_height="300dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/pika2"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif5"
+        android:layout_width="200dp"
+        android:layout_height="400dp"
+        android:layout_above="@+id/gif1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pika4"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/gif1"
+        android:src="@drawable/pika7"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/gif1"
+        android:src="@drawable/pika7"/>
+
+    <Button
+        android:id="@+id/backmain.btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
